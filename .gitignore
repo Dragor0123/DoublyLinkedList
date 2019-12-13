@@ -2,7 +2,6 @@
 # Created by https://www.gitignore.io/api/c++,windows,visualstudio
 # Edit at https://www.gitignore.io/?templates=c++,windows,visualstudio
 
-*.txt
 ### C++ ###
 # Prerequisites
 *.d
@@ -69,9 +68,6 @@ $RECYCLE.BIN/
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-*.sln
-*.vcxproj
-*.vcxproj.filters
 # User-specific files
 *.rsuser
 *.suo
