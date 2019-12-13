@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/c++,windows,visualstudio
 # Edit at https://www.gitignore.io/?templates=c++,windows,visualstudio
 
+*.txt
 ### C++ ###
 # Prerequisites
 *.d
