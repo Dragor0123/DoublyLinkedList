@@ -56,9 +56,9 @@ int main()
 	}
 	cout << '\n';
 	cout << *first << '\n';
-	cout << "개수 : " << li.size() << '\n' << '\n';
+	cout << "SIZE : " << li.size() << '\n' << '\n';
 
-	cout << "Reverse 실행\n";
+	cout << "Reverse\n";
 	li.reverse();
 	for (it = li.begin(); it != li.end(); ++it) {
 		cout << *it << "-> ";
