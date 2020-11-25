@@ -64,7 +64,7 @@ public:
 	void clear();
 	size_t size();
 
-private:
+public:
 	class Node
 	{
 	public:
@@ -79,6 +79,7 @@ private:
 		Node* post;
 	};
 
+private:
 	Node* m_pHead;
 	Node* m_pTail;
 	size_t m_size;

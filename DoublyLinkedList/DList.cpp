@@ -103,7 +103,7 @@ DList::Iterator
 DList::insert(Iterator position, size_t n, const element& val)
 {
 	Iterator it = position;
-	for (int i = 0; i < n; ++i) {
+	for (int i = 0; i < (int)n; ++i) {
 		it = this->insert(it, val);
 	}
 	return it;
